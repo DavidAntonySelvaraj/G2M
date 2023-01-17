@@ -108,7 +108,6 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(collision.gameObject);
             CalculateNoOfCoinsCollected();
-            Debug.Log(totalCoins);
         }
     }
 
